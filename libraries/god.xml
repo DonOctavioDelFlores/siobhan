@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="//god/stations">
+		<station id="siobhan_hq" race="argon" owner="player" type="headquarters">
+			<quotas>
+				<quota galaxy="1" zone="1" gamestart="siobhan_gamestart" />
+			</quotas>
+			<location class="sector" macro="cluster_44_sector001_macro"/>
+			<position x="0" y="0" z="0" />
+			<rotation yaw="0" pitch="0" roll="90"/>
+			<station constructionplan="'siobhan_hq_plan'">
+				<loadout>
+					<level exact="0.2" />
+				</loadout>
+			</station>
+		</station>
+	</add>
+</diff>

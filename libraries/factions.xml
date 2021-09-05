@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="factions/faction[@id='scaleplate']/relations"/>
+	<relations>
+		<relation faction="antigone" relation="-0.1" />
+		<relation faction="argon" relation="-0.32" />
+		<relation faction="buccaneers" relation="0.011" />
+		<relation faction="criminal" relation="-0.5" />
+		<relation faction="holyorder" relation="-0.32" />
+		<relation faction="khaak" relation="-1" />
+		<relation faction="ministry" relation="-0.32" />
+		<relation faction="paranid" relation="-0.32" />
+		<relation faction="player" relation="0.0032" />
+		<relation faction="smuggler" relation="-0.06" />
+		<relation faction="trinity" relation="-0.32" />
+		<relation faction="xenon" relation="-1" />
+	</relations>
+</replace>
+</diff>
