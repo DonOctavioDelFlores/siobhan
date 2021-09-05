@@ -2,25 +2,47 @@
 <diff>
 	<add sel="//plans">
 		<plan id="siobhan_hq_plan" name="{20102,2011}">
-			<entry index="1" macro="landmarks_player_hq_01_research_macro" fixed="1"/>
-			<entry index="2" macro="pier_arg_harbor_03_macro">
+			<entry index="1" macro="defence_arg_claim_01_macro">
 				<offset>
-					<position x="-4971.528" z="2921.887"/>
-					<rotation yaw="30.41356"/>
+					<position x="-163.861" z="491.657"/>
 				</offset>
 			</entry>
-			<entry index="3" macro="dockarea_arg_m_station_01_hightech_macro" connection="connectionsnap001">
-				<predecessor index="2" connection="connectionsnap001"/>
+			<entry index="2" macro="dockarea_arg_m_02_tradestation_01_macro" connection="connectionsnap002">
+				<predecessor index="1" connection="connectionsnap004"/>
 				<offset>
-					<position x="-4626.57" z="2719.391"/>
-					<rotation yaw="-59.58642"/>
+					<position x="-1763.861" z="491.657"/>
 				</offset>
 			</entry>
-			<entry index="4" macro="dockarea_arg_m_02_tradestation_01_macro" connection="connectionsnap001">
-				<predecessor index="3" connection="connectionsnap002"/>
+			<entry index="3" macro="dockarea_arg_m_02_tradestation_01_macro" connection="connectionsnap001">
+				<predecessor index="1" connection="connectionsnap003"/>
 				<offset>
-					<position x="-3936.656" z="2314.401"/>
-					<rotation yaw="30.4136"/>
+					<position x="1436.139" z="491.657"/>
+				</offset>
+			</entry>
+			<entry index="4" macro="dockarea_arg_m_station_01_hightech_macro" connection="connectionsnap002">
+				<predecessor index="1" connection="connectionsnap002"/>
+				<offset>
+					<position x="-163.861" z="1691.657"/>
+				</offset>
+			</entry>
+			<entry index="5" macro="dockarea_arg_m_station_01_hightech_macro" connection="connectionsnap001">
+				<predecessor index="1" connection="connectionsnap001"/>
+				<offset>
+					<position x="-163.861" z="-708.343"/>
+				</offset>
+			</entry>
+			<entry index="6" macro="pier_arg_harbor_03_macro" connection="connectionsnap001">
+				<predecessor index="4" connection="connectionsnap001"/>
+				<offset>
+					<position x="-163.861" z="2091.657"/>
+					<rotation yaw="89.99997"/>
+				</offset>
+			</entry>
+			<entry index="7" macro="pier_arg_harbor_03_macro" connection="connectionsnap001">
+				<predecessor index="5" connection="connectionsnap002"/>
+				<offset>
+					<position x="-163.861" z="-1108.343"/>
+					<rotation yaw="-89.99998"/>
 				</offset>
 			</entry>
 		</plan>

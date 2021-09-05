@@ -15,18 +15,15 @@
 						<event_cue_signalled/>
 					</conditions>
 					<actions>
-						<find_sector name="$HQSector" macro="macro.cluster_44_sector001_macro" required="true"/>
+						<find_sector name="$HQSector" macro="macro.cluster_49_sector001_macro" required="true"/>
 						<find_station name="$HQ" space="$HQSector" owner="faction.player" multiple="false" required="true"/>
 
 						<set_value name="$InitialMap" exact="[						
-						macro.cluster_44_sector001_macro]" />
+						macro.cluster_49_sector001_macro]" />
 						<!-- <set_value name="$UncoverShipyardsAndWharfs" exact="true"/> -->
 						<!-- <set_value name="$UncoverTradeStations" exact="true"/> -->
 						<set_value name="$UncoverAllStations" exact="true"/>
 						<include_actions ref="md.LIB_Generic.UncoverMap_SectorsAndGates"/>
-
-						<add_licence faction="faction.player" licencefaction="faction.hatikvah" type="capitalequipment"/>
-						<add_licence faction="faction.player" licencefaction="faction.hatikvah" type="capitalship"/>
 
 						<find_dockingbay name="$DockingBays" object="$HQ" checkoperational="true" multiple="true" walkable="true" comment="walkable=true ignores launchtubes!" required="true">
 							<match_any>
@@ -34,16 +31,33 @@
 							</match_any>
 						</find_dockingbay>
 
-						<create_ship name="AP Providence" macro="macro.ship_par_s_heavyfighter_01_a_macro" sector="$HQ.sector" dock="$DockingBays.random">
+						<create_ship macro="macro.ship_arg_s_heavyfighter_02_a_macro" sector="$HQ.sector" dock="$DockingBays.random">
 							<pilot>
 								<select faction="faction.hatikvah" tags="tag.aipilot"/>
 							</pilot>
 							<owner exact="faction.player" overridenpc="true" />
-							<ammo>
-								<macro ref="countermeasure_flares_01_macro">
-									<fillamount exact="5"/>
-								</macro>
-							</ammo>
+							<people>
+								<fillpercent min="70" max="95" />
+								<person role="service" weight="40">
+									<select faction="faction.hatikvah" tags="tag.crew"/>
+								</person>
+								<person role="marine" weight="80">
+									<select faction="faction.hatikvah" tags="tag.marine"/>
+								</person>
+							</people>
+						</create_ship>
+
+						<find_dockingbay name="$DockingBays" object="$HQ" checkoperational="true" multiple="true" walkable="true" comment="walkable=true ignores launchtubes!" required="true">
+							<match_any>
+								<match_dock size="tag.dock_l"/>
+							</match_any>
+						</find_dockingbay>
+
+						<create_ship macro="macro.ship_arg_l_centaur_a_macro" sector="$HQ.sector" dock="$DockingBays.random">
+							<pilot>
+								<select faction="faction.hatikvah" tags="tag.aipilot"/>
+							</pilot>
+							<owner exact="faction.player" overridenpc="true" />
 							<people>
 								<fillpercent min="70" max="95" />
 								<person role="service" weight="40">

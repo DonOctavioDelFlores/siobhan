@@ -6,7 +6,7 @@
 		<macro name="character_player_siobhan_macro" class="player">
 			<component ref="character_player_teladi_01" />
 			<properties>
-				<identification name="siobhan Sanduras Rusiris XI" race="teladi" female="false" />
+				<identification name="Siobhan Inja Norman" race="teladi" female="false" />
 				<bonemods>
 					<bonemod type="Legs" exact="1.0">
 						<bones>
