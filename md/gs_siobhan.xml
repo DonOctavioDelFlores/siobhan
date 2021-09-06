@@ -31,7 +31,7 @@
 							</match_any>
 						</find_dockingbay>
 
-						<create_ship macro="macro.ship_arg_s_heavyfighter_01_b_macro" sector="$HQ.sector" dock="$DockingBays.random">
+						<create_ship macro="macro.ship_arg_s_fighter_04_a_macro" sector="$HQ.sector" dock="$DockingBays.random">
 							<pilot>
 								<select faction="faction.hatikvah" tags="tag.aipilot"/>
 							</pilot>
@@ -46,6 +46,25 @@
 								</person>
 							</people>
 						</create_ship>
+
+						<create_ship macro="macro.ship_arg_s_fighter_03_a_macro" sector="$HQ.sector" dock="$DockingBays.random">
+							<pilot>
+								<select faction="faction.hatikvah" tags="tag.aipilot"/>
+							</pilot>
+							<owner exact="faction.player" overridenpc="true" />
+							<people>
+								<fillpercent min="70" max="95" />
+								<person role="service" weight="40">
+									<select faction="faction.hatikvah" tags="tag.crew"/>
+								</person>
+								<person role="marine" weight="80">
+									<select faction="faction.hatikvah" tags="tag.marine"/>
+								</person>
+							</people>
+						</create_ship>
+
+						<!--show_notification text="TITULO + '\n' + TEXTO!!!!" timeout="10s" priority="1" comment="Found Abandoned Ship"/-->
+
 					</actions>
 				</cue>
 			</cues>
