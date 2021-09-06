@@ -39,6 +39,12 @@
 				<blueprints>
 					<ware ware="clothingmod_0001" />
 					<ware ware="clothingmod_0002" />
+					<ware ware="turret_arg_m_beam_01_mk1"/>
+					<ware ware="turret_arg_l_plasma_01_mk1"/>
+					<ware ware="shield_arg_l_standard_01_mk1"/>
+					<ware ware="shield_arg_l_standard_01_mk2"/>
+					<ware ware="shield_arg_m_standard_01_mk1"/>
+					<ware ware="shield_arg_m_standard_01_mk2"/>
 					<ware ware="module_arg_conn_base_01"/>
 					<ware ware="module_arg_conn_base_02"/>
 					<ware ware="module_arg_conn_base_03"/>
