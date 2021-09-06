@@ -46,28 +46,6 @@
 								</person>
 							</people>
 						</create_ship>
-
-						<find_dockingbay name="$DockingBays" object="$HQ" checkoperational="true" multiple="true" walkable="true" comment="walkable=true ignores launchtubes!" required="true">
-							<match_any>
-								<match_dock size="tag.dock_l"/>
-							</match_any>
-						</find_dockingbay>
-
-						<create_ship macro="macro.ship_arg_l_centaur_a_macro" sector="$HQ.sector" dock="$DockingBays.random">
-							<pilot>
-								<select faction="faction.hatikvah" tags="tag.aipilot"/>
-							</pilot>
-							<owner exact="faction.player" overridenpc="true" />
-							<people>
-								<fillpercent min="70" max="95" />
-								<person role="service" weight="40">
-									<select faction="faction.hatikvah" tags="tag.crew"/>
-								</person>
-								<person role="marine" weight="80">
-									<select faction="faction.hatikvah" tags="tag.marine"/>
-								</person>
-							</people>
-						</create_ship>
 					</actions>
 				</cue>
 			</cues>
