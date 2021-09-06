@@ -4,9 +4,91 @@
 
 	<add sel="//macros">
 		<macro name="character_player_siobhan_macro" class="player">
-			<component ref="character_player_teladi_01" />
+			<component ref="character_player_argon_female_01" />
 			<properties>
-				<identification name="Siobhan Inja Norman" race="teladi" female="false" />
+				<identification name="Siobhan Inja Norman" race="argon" female="true" />
+				<facemods>
+					<facemod type="race_cau" name="arf.mt_race_cau" exact="0.3"/>
+					<facemod type="race_afr" exact="0.1">
+						<targets>
+							<target name="arf.mt_race_afr"/>
+							<target name="hair_short_morphtarget_afr"/>
+							<target name="hair_bun_morphtarget_afr"/>
+						</targets>
+					</facemod>
+					<facemod type="race_asi" exact="0.3">
+						<targets>
+							<target name="arf.mt_race_asi"/>
+							<target name="hair_short_morphtarget_asi"/>
+						</targets>
+					</facemod>
+					<facemod type="def_gaunt" name="arf.mt_def_gaunt" exact="0.0"/>
+					<facemod type="asymmetry" name="arf.mt_asymmetry" exact="0.3"/>
+					<facemod type="age" exact="0.0">
+						<targets>
+							<target name="arf.mt_age"/>
+							<target name="hair_short_morphtarget_old"/>
+							<target name="hair_bun_morphtarget_afr"/>
+						</targets>
+					</facemod>
+					<facemod type="bridge_depth" name="arf.mt_def_bridge_depth" exact="0.0"/>
+					<facemod type="bridge_width" name="arf.mt_def_bridge_width" exact="0.0"/>
+					<facemod type="brow_angle" name="arf.mt_def_brow_angle" exact="0.2"/>
+					<facemod type="brow_height" name="arf.mt_def_brow_height" exact="0.2"/>
+					<facemod type="brow_thickness" name="arf.mt_def_brow_thickness" exact="0.0"/>
+					<facemod type="brow_width" exact="-0.2">
+						<targets>
+							<target name="arf.mt_def_brow_width"/>
+							<target name="hair_short_morphtarget_brow_width"/>
+						</targets>
+					</facemod>
+					<facemod type="cheekbone_height" name="arf.mt_def_cheekbone_height" exact="0.2"/>
+					<facemod type="cheekbone_width" name="arf.mt_def_cheekbone_width" exact="0.2"/>
+					<facemod type="chin_depth" name="arf.mt_def_chin_depth" exact="0.1"/>
+					<facemod type="chin_height" name="arf.mt_def_chin_height" exact="0.1"/>
+					<facemod type="chin_square" name="arf.mt_def_chin_square" exact="0.2"/>
+					<facemod type="dome_roundness" exact="0.0">
+						<targets>
+							<target name="arf.mt_def_dome_roundness"/>
+							<target name="hair_bun_morphtarget_dome_roundness"/>
+						</targets>
+					</facemod>
+					<facemod type="ear_angle" name="arf.mt_def_ear_angle" exact="0.0"/>
+					<facemod type="ear_depth" name="arf.mt_def_ear_depth" exact="0.0"/>
+					<facemod type="ear_height" name="arf.mt_def_ear_height" exact="0.0"/>
+					<facemod type="ear_size" name="arf.mt_def_ear_size" exact="0.0"/>
+					<facemod type="eye_corner_angle" name="arf.mt_def_eye_corner_angle" exact="1.0"/>
+					<facemod type="eye_hooded" name="arf.mt_def_eye_hooded" exact="0.0"/>
+					<facemod type="eye_unhooded" name="arf.mt_def_eye_unhooded" exact="0.5"/>
+					<facemod type="fat" exact="0.0">
+						<targets>
+							<target name="arf.mt_def_fat"/>
+							<target name="hair_short_morphtarget_fat"/>
+						</targets>
+					</facemod>
+					<facemod type="head_width" exact="0.0">
+						<targets>
+							<target name="arf.mt_def_head_width"/>
+							<target name="hair_short_morphtarget_head_width"/>
+							<target name="hair_bun_morphtarget_head_width"/>
+						</targets>
+					</facemod>
+
+					<facemod type="skull_length" exact="0.0">
+						<targets>
+							<target name="arf.mt_def_skull_length"/>
+							<target name="hair_short_morphtarget_skull_length"/>
+							<target name="hair_bun_morphtarget_skull_length"/>
+						</targets>
+					</facemod>
+					<facemod type="skull_width" exact="0.0">
+						<targets>
+							<target name="arf.mt_def_skull_width"/>
+							<target name="hair_short_morphtarget_skull_width"/>
+							<target name="hair_bun_morphtarget_skull_width"/>
+						</targets>
+					</facemod>
+				</facemods>
 				<bonemods>
 					<bonemod type="Legs" exact="1.0">
 						<bones>
@@ -14,27 +96,28 @@
 						</bones>
 					</bonemod>
 				</bonemods>
-				<spacesuit macro="ship_tel_xs_spacesuit_01_a_macro" />
+				<overrideanimations>
+					<animation name="blink01" ref="assets/characters/animations/anim_blink_ar_fe_01" />
+				</overrideanimations>
+				<spacesuit macro="ship_arg_xs_spacesuit_01_a_macro" />
 				<models>
-					<model type="head" ref="assets/characters/teladi/heads/te_face_01" />
-					<model type="torso" ref="assets/characters/teladi/bodies/te_body_02_01" />
-					<!-- oculos -->
-					<!-- model type="props1" ref="assets/characters/teladi/props/te_prop_head_01_01" / -->
-					<model type="props1" ref="assets/characters/teladi/props/te_prop_head_03_01" />
+					<!-- Head -->
+					<model type="head" ref="assets/characters/argon/heads/char_arg_f_dyn_blend_head" />
 
-					<model type="props2" ref="assets/characters/teladi/props/te_prop_arm_03_03" />
-					<model type="props3" ref="assets/characters/teladi/props/te_prop_torso_02_01" />
+					<!-- Torso -->
+					<model type="torso" ref="assets/characters/argon/bodies/ch_ar_f_body_goner.xac" />
+					<!--model type="torso" ref="assets/characters/argon/bodies/char_ar_f_bod_pmc_civil_01.xac" /-->
 
-					<!--model type="props3" ref="assets/characters/teladi/props/te_prop_cape_01_01" /-->
+					<!-- Props -->
+					<model type="props1" ref="assets/characters/argon/props/char_arg_f_hair_dyn_bangs" />
+					<!--model type="props1" ref="assets/characters/terran/props/Ter_f_hair_bangs_ginger_01" /-->
 				</models>
 			</properties>
-
 			<connections>
 				<connection ref="computer">
 					<macro ref="entity_betty_macro" connection="player" />
 				</connection>
 			</connections>
 		</macro>
-
 	</add>
 </diff>
