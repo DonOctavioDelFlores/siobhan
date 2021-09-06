@@ -6,7 +6,7 @@
 			<entry index="2" macro="defence_arg_claim_01_macro">
 				<offset>
 					<position x="-2308.783" y="400" z="1378.503"/>
-					<rotation yaw="120.84322"/>
+					<rotation yaw="120.84321"/>
 				</offset>
 			</entry>
 			<entry index="3" macro="pier_arg_harbor_03_macro">
@@ -138,329 +138,116 @@
 					<rotation yaw="30.84329"/>
 				</offset>
 			</entry>
-			<entry index="22" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
-				<predecessor index="21" connection="connectionsnap001"/>
-				<offset>
-					<position x="-5056.217" y="400" z="3019.115"/>
-					<rotation yaw="30.84328"/>
-				</offset>
-				<upgrades>
-					<groups>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group02"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group03"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group01"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group04"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group05"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group06"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group07"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group08"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group02" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group03" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group01" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group04" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="2"/>
-					</groups>
-				</upgrades>
-			</entry>
-			<entry index="23" macro="defence_arg_disc_01_macro" connection="connectionsnap001">
-				<predecessor index="21" connection="connectionsnap004"/>
-				<offset>
-					<position x="-4061.743" y="400" z="3124.105"/>
-					<rotation yaw="30.84328"/>
-				</offset>
-				<upgrades>
-					<groups>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group02"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group03"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group01"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group04"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group05"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group06"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group07"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group08"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group02" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group03" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group01" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group04" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="2"/>
-					</groups>
-				</upgrades>
-			</entry>
-			<entry index="24" macro="defence_arg_disc_01_macro" connection="connectionsnap002">
-				<predecessor index="21" connection="connectionsnap003"/>
-				<offset>
-					<position x="-4676.974" y="400" z="2093.818"/>
-					<rotation yaw="30.8433"/>
-				</offset>
-				<upgrades>
-					<groups>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group02"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group03"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group01"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group04"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group05"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group06"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group07"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group08"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group02" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group03" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group01" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group04" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="2"/>
-					</groups>
-				</upgrades>
-			</entry>
-			<entry index="25" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
-				<predecessor index="7" connection="connectionsnap003"/>
-				<offset>
-					<position x="-5229.35" z="-3162"/>
-					<rotation yaw="-31.16038"/>
-				</offset>
-				<upgrades>
-					<groups>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group02"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group03"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group01"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group04"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group05"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group06"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group07"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group08"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group02" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group03" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group01" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group04" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="2"/>
-					</groups>
-				</upgrades>
-			</entry>
-			<entry index="26" macro="defence_arg_disc_01_macro" connection="connectionsnap002">
-				<predecessor index="11" connection="connectionsnap003"/>
-				<offset>
-					<position x="-0.0001062" z="-6110.993"/>
-				</offset>
-				<upgrades>
-					<groups>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group02"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group03"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group01"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group04"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group05"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group06"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group07"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group08"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group02" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group03" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group01" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group04" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="2"/>
-					</groups>
-				</upgrades>
-			</entry>
-			<entry index="27" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
-				<predecessor index="15" connection="connectionsnap003"/>
-				<offset>
-					<position x="5042.489" z="3452.113"/>
-					<rotation yaw="-34.39446"/>
-				</offset>
-				<upgrades>
-					<groups>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group02"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group03"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group01"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group04"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group05"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group06"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group07"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group08"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group02" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group03" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group01" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group04" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="2"/>
-					</groups>
-				</upgrades>
-			</entry>
-			<entry index="28" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
-				<predecessor index="19" connection="connectionsnap003"/>
-				<offset>
-					<position x="-344.315" z="6101.347"/>
-					<rotation yaw="-93.22959"/>
-				</offset>
-				<upgrades>
-					<groups>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group02"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group03"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group01"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group04"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group05"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group06"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group07"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group08"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group02" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group03" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group01" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group04" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="2"/>
-					</groups>
-				</upgrades>
-			</entry>
-			<entry index="29" macro="struct_arg_base_01_macro" connection="connectionsnap001">
+			<entry index="22" macro="struct_arg_base_01_macro" connection="connectionsnap001">
 				<predecessor index="1" connection="connectionsnap005"/>
 				<offset>
 					<position x="4216.372" z="-2517.95"/>
 					<rotation yaw="-59.15672"/>
 				</offset>
 			</entry>
-			<entry index="30" macro="struct_arg_cross_01_macro" connection="connectionsnap001">
-				<predecessor index="29" connection="connectionsnap002"/>
+			<entry index="23" macro="struct_arg_cross_01_macro" connection="connectionsnap001">
+				<predecessor index="22" connection="connectionsnap002"/>
 				<offset>
 					<position x="4559.801" z="-2723.027"/>
 					<rotation yaw="-59.15671"/>
 				</offset>
 			</entry>
-			<entry index="31" macro="pier_arg_harbor_03_macro" connection="connectionsnap001">
-				<predecessor index="30" connection="connectionsnap002"/>
+			<entry index="24" macro="pier_arg_harbor_03_macro" connection="connectionsnap001">
+				<predecessor index="23" connection="connectionsnap002"/>
 				<offset>
 					<position x="4903.23" z="-2928.104"/>
-					<rotation yaw="-149.15671"/>
+					<rotation yaw="-149.15669"/>
 				</offset>
 			</entry>
-			<entry index="32" macro="struct_arg_cross_01_macro" connection="connectionsnap005">
-				<predecessor index="30" connection="connectionsnap006"/>
-				<offset>
-					<position x="4559.801" y="400" z="-2723.027"/>
-					<rotation yaw="-59.15671"/>
-				</offset>
-			</entry>
-			<entry index="33" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
-				<predecessor index="32" connection="connectionsnap003"/>
-				<offset>
-					<position x="4354.724" y="400" z="-3066.456"/>
-					<rotation yaw="120.84328"/>
-				</offset>
-				<upgrades>
-					<groups>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group02"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group03"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group01"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group04"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group05"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group06"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group07"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group08"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group02" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group03" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group01" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group04" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="2"/>
-					</groups>
-				</upgrades>
-			</entry>
-			<entry index="34" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
-				<predecessor index="32" connection="connectionsnap004"/>
-				<offset>
-					<position x="4764.877" y="400" z="-2379.598"/>
-					<rotation yaw="120.84328"/>
-				</offset>
-				<upgrades>
-					<groups>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group02"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group03"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group01"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group04"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group05"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group06"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group07"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group08"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group02" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group03" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group01" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group04" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="2"/>
-					</groups>
-				</upgrades>
-			</entry>
-			<entry index="35" macro="defence_arg_disc_01_macro" connection="connectionsnap001">
-				<predecessor index="32" connection="connectionsnap002"/>
-				<offset>
-					<position x="4903.23" y="400" z="-2928.104"/>
-					<rotation yaw="120.84328"/>
-				</offset>
-				<upgrades>
-					<groups>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group02"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group03"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group01"/>
-						<shields macro="shield_arg_m_standard_02_mk2_macro" path=".." group="group04"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group05"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group06"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group07"/>
-						<shields macro="shield_arg_l_standard_01_mk2_macro" path=".." group="group08"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group02" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group03" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group01" exact="2"/>
-						<turrets macro="turret_arg_m_beam_02_mk1_macro" path=".." group="group04" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="2"/>
-						<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="2"/>
-					</groups>
-				</upgrades>
-			</entry>
-			<entry index="36" macro="struct_arg_base_01_macro" connection="connectionsnap001">
+			<entry index="25" macro="struct_arg_base_01_macro" connection="connectionsnap001">
 				<predecessor index="3" connection="connectionsnap001"/>
 				<offset>
 					<position x="-4712.786" z="2814.039"/>
 					<rotation yaw="-59.15671"/>
 				</offset>
 			</entry>
-			<entry index="37" macro="storage_arg_l_container_01_macro" connection="connectionsnap004">
-				<predecessor index="36" connection="connectionsnap002"/>
+			<entry index="26" macro="storage_arg_l_container_01_macro" connection="connectionsnap004">
+				<predecessor index="25" connection="connectionsnap002"/>
 				<offset>
 					<position x="-3854.213" y="2.773" z="2301.348"/>
-					<rotation yaw="120.84328"/>
+					<rotation yaw="120.84326"/>
 				</offset>
 			</entry>
-			<entry index="38" macro="storage_arg_m_solid_01_macro" connection="connectionsnap003">
-				<predecessor index="37" connection="connectionsnap003"/>
+			<entry index="27" macro="storage_arg_m_solid_01_macro" connection="connectionsnap003">
+				<predecessor index="26" connection="connectionsnap003"/>
 				<offset>
 					<position x="-3444.06" y="0.0001645" z="2988.206"/>
 					<rotation yaw="-59.15671"/>
 				</offset>
 			</entry>
-			<entry index="39" macro="storage_arg_m_liquid_01_macro" connection="connectionsnap003">
-				<predecessor index="37" connection="connectionsnap002"/>
+			<entry index="28" macro="storage_arg_m_liquid_01_macro" connection="connectionsnap003">
+				<predecessor index="26" connection="connectionsnap002"/>
 				<offset>
 					<position x="-4264.366" y="0.0001647" z="1614.49"/>
-					<rotation yaw="120.84329"/>
+					<rotation yaw="120.84328"/>
+				</offset>
+			</entry>
+			<entry index="29" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
+				<predecessor index="21" connection="connectionsnap004"/>
+				<offset>
+					<position x="-4061.743" y="400" z="3124.105"/>
+					<rotation yaw="-59.1567"/>
+				</offset>
+			</entry>
+			<entry index="30" macro="defence_arg_disc_01_macro" connection="connectionsnap001">
+				<predecessor index="21" connection="connectionsnap001"/>
+				<offset>
+					<position x="-5056.216" y="400" z="3019.115"/>
+					<rotation yaw="-59.15672"/>
+				</offset>
+			</entry>
+			<entry index="31" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+				<predecessor index="21" connection="connectionsnap003"/>
+				<offset>
+					<position x="-4676.973" y="400" z="2093.818"/>
+					<rotation yaw="-59.1567"/>
+				</offset>
+			</entry>
+			<entry index="32" macro="defence_arg_disc_01_macro" connection="connectionsnap001">
+				<predecessor index="7" connection="connectionsnap003"/>
+				<offset>
+					<position x="-5229.35" z="-3162"/>
+					<rotation yaw="-121.16038"/>
+				</offset>
+			</entry>
+			<entry index="33" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+				<predecessor index="11" connection="connectionsnap003"/>
+				<offset>
+					<position z="-6110.993"/>
+					<rotation yaw="-90.00002"/>
+				</offset>
+			</entry>
+			<entry index="34" macro="defence_arg_disc_01_macro" connection="connectionsnap001">
+				<predecessor index="23" connection="connectionsnap003"/>
+				<offset>
+					<position x="4354.724" z="-3066.456"/>
+					<rotation yaw="-149.15672"/>
+				</offset>
+			</entry>
+			<entry index="35" macro="defence_arg_disc_01_macro" connection="connectionsnap002">
+				<predecessor index="23" connection="connectionsnap004"/>
+				<offset>
+					<position x="4764.877" z="-2379.598"/>
+					<rotation yaw="-149.15669"/>
+				</offset>
+			</entry>
+			<entry index="36" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+				<predecessor index="15" connection="connectionsnap003"/>
+				<offset>
+					<position x="5042.489" z="3452.113"/>
+					<rotation yaw="145.60551"/>
+				</offset>
+			</entry>
+			<entry index="37" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+				<predecessor index="19" connection="connectionsnap003"/>
+				<offset>
+					<position x="-344.315" z="6101.347"/>
+					<rotation yaw="86.77039"/>
 				</offset>
 			</entry>
 		</plan>
