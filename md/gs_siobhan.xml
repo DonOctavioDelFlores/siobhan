@@ -31,7 +31,7 @@
 							</match_any>
 						</find_dockingbay>
 
-						<create_ship macro="macro.ship_arg_s_heavyfighter_02_a_macro" sector="$HQ.sector" dock="$DockingBays.random">
+						<create_ship macro="macro.ship_arg_s_heavyfighter_01_b_macro" sector="$HQ.sector" dock="$DockingBays.random">
 							<pilot>
 								<select faction="faction.hatikvah" tags="tag.aipilot"/>
 							</pilot>
