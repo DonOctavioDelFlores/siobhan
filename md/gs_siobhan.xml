@@ -15,11 +15,11 @@
 						<event_cue_signalled/>
 					</conditions>
 					<actions>
-						<find_sector name="$HQSector" macro="macro.cluster_49_sector001_macro" required="true"/>
+						<find_sector name="$HQSector" macro="macro.cluster_50_sector001_macro" required="true"/>
 						<find_station name="$HQ" space="$HQSector" owner="faction.player" multiple="false" required="true"/>
 
 						<set_value name="$InitialMap" exact="[						
-						macro.cluster_49_sector001_macro]" />
+						macro.cluster_50_sector001_macro]" />
 						<!-- <set_value name="$UncoverShipyardsAndWharfs" exact="true"/> -->
 						<!-- <set_value name="$UncoverTradeStations" exact="true"/> -->
 						<set_value name="$UncoverAllStations" exact="true"/>
@@ -50,7 +50,7 @@
 							</people>
 						</create_ship>
 
-						<!--show_notification text="TITULO + '\n' + TEXTO!!!!" timeout="10s" priority="1" comment="Found Abandoned Ship"/-->
+						<!--write_to_logbook category="upkeep" title="$logtext" interaction="showonmap" object="this.ship"/-->
 
 					</actions>
 				</cue>

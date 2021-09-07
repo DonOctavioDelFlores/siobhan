@@ -5,10 +5,10 @@
 			<quotas>
 				<quota galaxy="1" zone="1" gamestart="siobhan_gamestart" />
 			</quotas>
-			<location class="sector" macro="cluster_49_sector001_macro">
+			<location class="sector" macro="cluster_50_sector001_macro">
 				<corerange min="1.2" max="1.4"/>
 			</location>
-			<position x="64000" y="0" z="64000" pitch="0" roll="0" yaw="0" />
+			<position x="3200" y="0" z="3200" pitch="0" roll="0" yaw="0" />
 			<station constructionplan="'siobhan_hq_plan'">
 				<loadout>
 					<level exact="0.2" />
