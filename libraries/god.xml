@@ -5,7 +5,7 @@
 			<quotas>
 				<quota galaxy="1" zone="1" gamestart="siobhan_gamestart" />
 			</quotas>
-			<location class="sector" macro="cluster_50_sector002_macro">
+			<location class="sector" macro="cluster_49_sector001_macro">
 				<corerange min="1.2" max="1.4"/>
 			</location>
 			<position x="5km" y="0" z="2km" pitch="0" roll="0" yaw="0" />

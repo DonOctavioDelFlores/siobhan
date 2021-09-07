@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<replace sel="factions/faction[@id='scaleplate']/relations"/>
+	<replace sel="//factions/faction[@id='scaleplate']/relations"/>
 	<relations locked="0">
 		<relation faction="antigone" relation="-0.1" />
 		<relation faction="argon" relation="-0.32" />

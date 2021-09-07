@@ -15,7 +15,7 @@
         <set_value name="$CurrentPhase" exact="null"/>
         <set_value name="$PreviousPhase" exact="null"/>
 
-        <find_sector name="$HQSector" macro="macro.cluster_50_sector002_macro"/>
+        <find_sector name="$HQSector" macro="macro.cluster_49_sector001_macro"/>
         <set_value name="$HQPosition" exact="position.[0km, 0m, 0km]"/>
         <set_value name="$MentorRoom" exact="null"/>
 
