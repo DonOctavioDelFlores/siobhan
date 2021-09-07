@@ -103,14 +103,11 @@
 				<models>
 					<!-- Head -->
 					<model type="head" ref="assets/characters/argon/heads/char_arg_f_dyn_blend_head" />
-
 					<!-- Torso -->
 					<model type="torso" ref="assets/characters/argon/bodies/ch_ar_f_body_goner.xac" />
 					<!--model type="torso" ref="assets/characters/argon/bodies/char_ar_f_bod_pmc_civil_01.xac" /-->
-
 					<!-- Props -->
 					<model type="props1" ref="assets/characters/argon/props/char_arg_f_hair_dyn_bangs" />
-					<!--model type="props1" ref="assets/characters/terran/props/Ter_f_hair_bangs_ginger_01" /-->
 				</models>
 			</properties>
 			<connections>

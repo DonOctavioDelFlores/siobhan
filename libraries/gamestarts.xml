@@ -18,7 +18,7 @@
 				<interior module="landmarks_player_hq_01_research_macro" corridor="room_arg_corridor_01_macro" door="con_room_01" room="room_gen_boronoffice_01_macro" name="{20007,1171}" />
 			</location>
 			<player macro="character_player_siobhan_macro" money="1000000">
-				<ship macro="ship_ter_l_carrier_01_macro" name="AP Providence II">
+				<ship macro="scimitar_macro" name="AP Providence II">
 				</ship>
 				<inventory>
 					<ware ware="weapon_gen_spacesuit_laser_01_mk1"/>
