@@ -2,7 +2,7 @@
 
 <diff>
 	<add sel="/gamestarts">
-		<gamestart id="siobhan_gamestart" name="Siobhan" description="Siobhan!!!" image="gamestart_1" group="1">
+		<gamestart id="siobhan_gamestart" name="The Acomplished Astrophysicist " description="Dr Siobhan Inja Norman, a long lived argon astrophysicist born in 458, responsible for the research that lead to the jumpdrive, was in a self imposed exile after the gate shutdown. But it all changed when she received a messenger drone from her dear friend Nopileos 'Sister, finally found you! We are in need of your help, Nola Hi and the Queendom of Boron sent me a representative called Boso Ta, i´m unable to reach him, but those are the coordinates, hurry!'" image="gamestart_4" group="1">
 			<info>
 				<item name="Location" value="Black Hole Sun IV" />
 				<item name="Funds" value="125,000" />
@@ -27,7 +27,7 @@
 				<interior module="landmarks_player_hq_01_research_macro" corridor="room_arg_corridor_01_macro" door="con_room_01" room="room_gen_boronoffice_01_macro" name="{20007,1171}" />
 			</location>
 			<player macro="character_player_siobhan_macro" money="1250000">
-				<ship macro="ship_arg_l_centaur_a_macro" name="AP Providence">
+				<ship macro="ship_arg_l_centaur_a_macro" name="AP Providence II">
 				</ship>
 				<inventory>
 					<ware ware="weapon_gen_spacesuit_laser_01_mk1"/>
