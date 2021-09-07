@@ -4,21 +4,15 @@
 	<add sel="/gamestarts">
 		<gamestart id="siobhan_gamestart" name="The Acomplished Astrophysicist " description="Dr Siobhan Inja Norman, a long lived argon astrophysicist born in 458, responsible for the research that lead to the jumpdrive, was in a self imposed exile after the gate shutdown. But it all changed when she received a messenger drone from her dear friend Isemados Sibasomos Nopileos IV urging her to contact a boron scientist, on the fringes of teladi space, that supossedly holds data about her now lost research. Its time to go back to civilization Dr Norman." image="gamestart_4" group="1">
 			<info>
-				<item name="Location" value="Black Hole Sun IV" />
+				<item name="Location" value="Frontier´s Edge" />
 				<item name="Funds" value="1,000,000" />
 				<item name="Ship" value="1x Centaur, 1x Pulsar" />
-				<item name="Blueprints:" value="" />
-				<item name="     " value="A set of Argon station Modules to enable early station construction" />
+				<item name="Blueprints:" value="A set of Argon station Modules to enable early station construction" />
 				<item name="Comments:" value="HQ Unlocked" />
 			</info>
-			<location galaxy="xu_ep2_universe_macro" sector="cluster_50_sector001_macro" station="siobhan_hq">
-				<player disembarked="true">
-					<position x="-0.05115" y="1.806" z="-2.541"/>
-					<rotation yaw="179.69951" pitch="-1.83378"/>
-				</player>
-				<interior module="landmarks_player_hq_01_research_macro" corridor="room_arg_corridor_01_macro" door="con_room_01" room="room_gen_boronoffice_01_macro" name="{20007,1171}" />
+			<location galaxy="xu_ep2_universe_macro" sector="cluster_49_sector001_macro">
 			</location>
-			<player macro="character_player_siobhan_macro" money="1250000">
+			<player macro="character_player_siobhan_macro" money="1000000">
 				<ship macro="ship_arg_l_centaur_a_macro" name="AP Providence II">
 				</ship>
 				<inventory>
@@ -97,12 +91,12 @@
 				<!-- Argon gamestart = friendly with Argon, friendly with Antigone, unfriendly with Holy Order -->
 				<factions>
 					<relations>
-						<relation faction="argon" otherfaction="player" relation="0.1"/>
-						<relation faction="teladi" otherfaction="player" relation="0.1"/>
+						<relation faction="argon" otherfaction="player" relation="0.01"/>
+						<relation faction="teladi" otherfaction="player" relation="0.01"/>
 						<relation faction="hatikvah" otherfaction="player" relation="0.01"/>
 						<relation faction="alliance" otherfaction="player" relation="0.01"/>
 						<relation faction="antigone" otherfaction="player" relation="0.0032"/>
-						<relation faction="paranid" otherfaction="player" relation="-0.032"/>
+						<relation faction="paranid" otherfaction="player" relation="-0.01"/>
 						<relation faction="holyorder" otherfaction="player" relation="-0.01"/>
 						<relation faction="scaleplate" otherfaction="player" relation="0.0032"/>
 					</relations>
