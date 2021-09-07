@@ -18,54 +18,7 @@
 				<interior module="landmarks_player_hq_01_research_macro" corridor="room_arg_corridor_01_macro" door="con_room_01" room="room_gen_boronoffice_01_macro" name="{20007,1171}" />
 			</location>
 			<player macro="character_player_siobhan_macro" money="1000000">
-				<ship macro="ship_ter_l_destroyer_01_a_macro" name="AP Providence II">
-					<loadout>
-						<macros>
-							<engine macro="engine_ter_l_allround_01_mk1_macro" path="../con_engine_02"/>
-							<engine macro="engine_ter_l_allround_01_mk1_macro" path="../con_engine_01"/>
-							<shield macro="shield_ter_l_standard_01_mk3_macro" path="../con_shieldgen_l_01"/>
-							<shield macro="shield_ter_l_standard_01_mk3_macro" path="../con_shieldgen_l_02"/>
-							<shield macro="shield_ter_l_standard_01_mk3_macro" path="../con_shieldgen_l_03"/>
-							<weapon macro="weapon_ter_l_destroyer_01_mk1_macro" path="../con_weapon_01"/>
-							<weapon macro="weapon_ter_l_destroyer_01_mk1_macro" path="../con_weapon_02"/>
-						</macros>
-						<groups>
-							<shields macro="shield_ter_m_standard_02_mk2_macro" path=".." group="group_back_mid_mid" />
-							<shields macro="shield_ter_m_standard_02_mk2_macro" path=".." group="group_front_down_mid" exact="2"/>
-							<shields macro="shield_ter_m_standard_02_mk2_macro" path=".." group="group_back_mid_up"/>
-							<shields macro="shield_ter_m_standard_02_mk2_macro" path=".." group="group_back_down_mid"/>
-							<shields macro="shield_ter_m_standard_02_mk2_macro" path=".." group="group_down_mid_left"/>
-							<shields macro="shield_ter_m_standard_02_mk2_macro" path=".." group="group_mid_up_left"/>
-							<shields macro="shield_ter_m_standard_02_mk2_macro" path=".." group="group_mid_up_left_2" exact="2"/>
-							<shields macro="shield_ter_m_standard_02_mk2_macro" path=".." group="group_mid_right_up_2" exact="2"/>
-							<shields macro="shield_ter_m_standard_02_mk2_macro" path=".." group="group_down_mid_right"/>
-							<shields macro="shield_ter_m_standard_02_mk2_macro" path=".." group="group_mid_right_up"/>
-							<turrets macro="turret_ter_l_beam_01_mk1_macro" path=".." group="group_front_down_mid"/>
-							<turrets macro="turret_ter_m_laser_02_mk1_macro" path=".." group="group_back_mid_up"/>
-							<turrets macro="turret_ter_m_laser_02_mk1_macro" path=".." group="group_back_down_mid"/>
-							<turrets macro="turret_ter_m_laser_02_mk1_macro" path=".." group="group_down_mid_left" exact="2"/>
-							<turrets macro="turret_ter_m_laser_02_mk1_macro" path=".." group="group_mid_up_left" exact="2"/>
-							<turrets macro="turret_ter_l_beam_01_mk1_macro" path=".." group="group_mid_up_left_2"/>
-							<turrets macro="turret_ter_l_beam_01_mk1_macro" path=".." group="group_mid_right_up_2"/>
-							<turrets macro="turret_ter_m_laser_02_mk1_macro" path=".." group="group_down_mid_right" exact="2"/>
-							<turrets macro="turret_ter_m_laser_02_mk1_macro" path=".." group="group_mid_right_up" exact="2"/>
-						</groups>
-						<ammunition>
-							<ammunition macro="missile_guided_heavy_mk1_macro" exact="12"/>
-							<ammunition macro="missile_smart_heavy_mk1_macro" exact="12"/>
-							<ammunition macro="eq_arg_satellite_02_macro" exact="50"/>
-						</ammunition>
-						<software>
-							<software ware="software_dockmk2"/>
-							<software ware="software_flightassistmk1"/>
-							<software ware="software_scannerlongrangemk2"/>
-							<software ware="software_scannerobjectmk2"/>
-							<software ware="software_targetmk2"/>
-						</software>
-						<virtualmacros>
-							<thruster macro="thruster_gen_l_allround_01_mk3_macro"/>
-						</virtualmacros>
-					</loadout>
+				<ship macro="ship_ter_l_carrier_01_macro" name="AP Providence II">
 				</ship>
 				<inventory>
 					<ware ware="weapon_gen_spacesuit_laser_01_mk1"/>
@@ -78,6 +31,41 @@
 				<blueprints>
 					<ware ware="clothingmod_0001" />
 					<ware ware="clothingmod_0002" />
+					<ware ware="turret_ter_m_beam_01_mk1"/>
+					<ware ware="turret_ter_l_beam_01_mk1"/>
+					<ware ware="shield_ter_l_standard_01_mk1"/>
+					<ware ware="shield_ter_l_standard_01_mk2"/>
+					<ware ware="shield_ter_m_standard_01_mk1"/>
+					<ware ware="shield_ter_m_standard_01_mk2"/>
+					<ware ware="module_ter_conn_base_01"/>
+					<ware ware="module_ter_conn_base_02"/>
+					<ware ware="module_ter_conn_base_03"/>
+					<ware ware="module_ter_conn_cross_01"/>
+					<ware ware="module_ter_conn_vertical_01"/>
+					<ware ware="module_ter_conn_vertical_02"/>
+					<ware ware="module_ter_def_claim_01"/>
+					<ware ware="module_ter_def_disc_01"/>
+					<ware ware="module_ter_def_tube_01"/>
+					<ware ware="module_ter_dock_m_01_hightech"/>
+					<ware ware="module_ter_build_dockarea_m_01"/>
+					<ware ware="module_ter_equip_dockarea_m_01"/>
+					<ware ware="module_ter_pier_01"/>
+					<ware ware="module_ter_pier_02"/>
+					<ware ware="module_ter_pier_03"/>
+					<ware ware="module_ter_pier_04"/>
+					<ware ware="module_ter_pier_tradestation_01"/>
+					<ware ware="module_ter_hab_l_01"/>
+					<ware ware="module_ter_hab_m_01"/>
+					<ware ware="module_ter_hab_s_01"/>
+					<ware ware="module_ter_stor_container_l_01"/>
+					<ware ware="module_ter_stor_container_m_01"/>
+					<ware ware="module_ter_stor_container_s_01"/>
+					<ware ware="module_ter_stor_liquid_l_01"/>
+					<ware ware="module_ter_stor_liquid_m_01"/>
+					<ware ware="module_ter_stor_liquid_s_01"/>
+					<ware ware="module_ter_stor_solid_l_01"/>
+					<ware ware="module_ter_stor_solid_m_01"/>
+					<ware ware="module_ter_stor_solid_s_01"/>
 					<ware ware="turret_arg_m_beam_01_mk1"/>
 					<ware ware="turret_arg_l_plasma_01_mk1"/>
 					<ware ware="shield_arg_l_standard_01_mk1"/>
